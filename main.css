@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+html, body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width:100%;
+
+}
+
+
+
+
+.intro{
+    height:100%;
+    width: 100%;
+    margin:auto;
+    background: url("ruready.jpg") no-repeat 50% 50%;
+    display: table;
+    top:0;
+    background-size: cover;
+        }
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Raleway', sans-serif;
+    color:#10102c ;
+}
+.btn
+{ 
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+    border-radius: 9px;
+    color: #380745;
+    padding: 10px 20px;
+    border: solid #380745;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header{margin:0.5em;}
+body{margin: 0;
+    font-family: "Raleway", sans-serif;
+
+    background-color: #d6bda9;
+}
+
+
+nav{
+    margin-left:60;
+    padding: 0;
+    list-style: none;
+}
+.About-Jordan{
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    color: black
+}
+.Culture{
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    color: black;
+}
+.Travel-planning{
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    color: black;
+}
+
